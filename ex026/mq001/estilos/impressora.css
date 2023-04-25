@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/*Estilo para tela*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+menu{
+    display: none;
+}
+section::after{
+    content: "Esse artigo foi impresso atraves do site Lidio News em 24/04/2023";
+}
