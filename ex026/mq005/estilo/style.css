@@ -18,7 +18,7 @@ header > h1{
     padding: 10px;
 }
 header > menu{
-    display: block;
+    display: none;
 }
 header > menu > ul{
     list-style-type: none;
@@ -51,3 +51,15 @@ main > article > p{
     margin-bottom: 10px;
     text-indent: 20px;
 } 
+#icone-menu{
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#icone-menu:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
